@@ -1,0 +1,1645 @@
+/*ESTILOS GENERALES*/
+* {
+    box-sizing: border-box;
+}
+
+
+/*FUENTE*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Colores*/
+.magenta{
+    background-color: #E60080;
+}
+.magentaO{
+    background-color: #af0362;
+}
+.verde{
+    background-color: #BCCF00;
+}
+.verdeO{
+    background-color: #8a9903;
+}
+.azul{
+    background-color: #009FE3;
+}
+.azulO{
+    background-color: #03709e;
+}
+.naranja{
+    background-color: #F39200;
+}
+.naranjaO{
+    background-color: #a76501;
+}
+.cafe{
+    background-color: #A55E25;
+}
+.cafeO{
+    background-color: #744015;
+}
+.morado{
+    background-color: #93278F;
+}
+.moradoO{
+    background-color: #6d196a;
+}
+.amarillo{
+    background-color: #FFE000;
+}
+.amarilloO{
+    background-color: #ad9a06;
+}
+
+
+
+
+
+/*----------------BARRA NAVEGACION GENERAL----------------*/
+.espacioDebajoN {
+    padding-bottom: 87px;
+}
+.colorFN {
+    background: #C9961A;
+}
+.TextoBotNav{
+    font-weight: bolder;
+}
+.anchoL {
+    width: 450px;
+}
+.botonBarraN:hover{
+    background-color: #f0bd3c;
+
+}
+
+
+
+/*----------------FOOTER GENERAL----------------*/
+.FondoFooter{
+    background-image: url("../images/fondos/footer.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+}
+.EspacioFooterIn{
+    padding: 10px;
+}
+.EspacioLogoFoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.espacioLinkLogoFooter{
+    margin-right: 50px;
+}
+.TextFooter{
+    color: black;
+    font-weight:bold;
+}
+.TextFooter1{
+    color: white;
+}
+.EspacioInfoFoot {
+    padding: 15px;
+}
+.EspacioInfoC{
+    padding-left: 55px;
+}
+.listacontac{
+    list-style: url("../images/iconos/vineta-sol.png");
+}
+.alineoIcoRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.separaIco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alingContenFooterIco{
+    display: flex;
+}
+
+
+
+
+/*HOME*/
+
+
+
+/*----------------ENCABEZADO HOME----------------*/
+.FondoEncabezadoHome{
+    background-image: url("../images/fondos/Fondo-home-sol.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.altoH{
+    padding: 50px;
+}
+.altoB{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.fondoBlancoLetra{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.espaciosCajaTexto{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.textoTitulo{
+    font-weight: bolder;
+}
+.Flecha{
+    width: 30px;
+    padding: 5px;
+}
+.botonApreEnca{
+    color:white;
+    padding: 15px;
+    background-color: #C9961A;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.botonApreEnca:hover{
+    color:white;
+    padding: 15px;
+    background-color: #b48817;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.EspacioSol{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+/*----------------MAPA DEL HOME----------------*/
+.fondoMapaA{
+    border-top-right-radius: 50% 15%;
+    border-top-left-radius: 50% 15%;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.EspacioMapaA {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.FondoMad{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imMapa{
+    width: 100%;
+}
+.EspacioCartelMap{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.TextCartelMap{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.MapaIframeCaja{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 100%;
+}
+.MapaIframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+
+
+/*----------------VIDEO HOME----------------*/
+.VideoTCaja{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.VideoT{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+.FondoVideoTi{
+    background-image: url("../images/fondos/fondo-video.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+}
+.EspacioSepaVide{
+    padding-top: 80px;
+}
+.EspacioCartelVid{
+    padding-top: 320px;
+    padding-bottom: 35px;
+}
+.FondoVidC{
+    background-image: url("../images/fondos/letreroV2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/*----------------CARRUSEL HOME----------------*/
+.espacioLetraCaJue{
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.EspacioCartelJuegos{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.FondoCartelJuegos{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelJuegos{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.espacioDebajo{
+    padding-bottom: 5%;
+}
+.espacioCJugos{
+    padding: 10px;
+}
+
+.alineaTarCJuegos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjetaCJuegos{
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+}
+.bordeImaTarjetaCJuegos{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+}
+.bordeImaTarjetaImCJuegos{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50% 40%;
+    border-bottom-left-radius: 30% 10%;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImaTarjetaImCJuegos{
+    width: 100%;
+}
+.ImaTarjetaImCJuegos:hover{
+    transform: scale(1.1);
+    transition: transform 0.55s;
+}
+.espacioLetraTarjetaCJuegos{
+    padding: 9px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.CJuegosespacioTexto{
+    padding: 5px;
+}
+.CJuegosTexto{
+    font-weight: bolder;
+}
+.CJuegosTextoB{
+    font-weight: bolder;
+    color: white;
+}
+.CJuegosTextoBN{
+    color: white;
+}
+
+.CJuegosespacioTextoBoton{
+    padding-bottom: 20px;
+}
+.botonJuegarTarjetaCJuega{
+    color:white;
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.botonJuegarTarjetaEq:hover{
+    color:white;
+    padding: 15px;
+    mix-blend-mode: screen;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+/*APRENDE*/
+
+
+
+
+/*----------------ENCABEZADO APRENDE----------------*/
+.FondoEncabezadoAprende{
+    background-image: url("../images/fondos/Fondo-apre-web.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.altoA{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.altoAp{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.fondoBlancoLetraA{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.espaciosCajaTextoA{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.textoTituloA{
+    font-weight: bolder;
+}
+.FlechaA{
+    width: 30px;
+    padding: 5px;
+}
+.botonApreEncaA{
+    color:white;
+    padding: 15px;
+    background-color: #C9961A;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.botonApreEncaA:hover{
+    color:white;
+    padding: 15px;
+    background-color: #b48817;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.EspacioSolA{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+/*----------------SABES QUE ES MITO O LEYENDA----------------*/
+.fondoSabes{
+    background-image: url("../images/fondos/fondo_zigzagapre_web.png");
+    padding: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.FondoSabesC{
+    background-image: url("../images/fondos/fondo_queesmitos_web.jpg");
+    padding: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.EspacioSabesA {
+    padding-top: 150px;
+    padding-bottom: 10px;
+}
+.alinSabesMyL{
+    display: flex;
+    justify-content: center;
+}
+.botonSabeMyL:hover{
+    transform: scale(1.1);
+    transition: transform 0.55s;
+}
+
+
+
+/*----------------TARJETAS DE MITOS Y LEYENDAS----------------*/
+.EspacioCartelMyL{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.FondoCartelMyL{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelMyL{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.tarjetaMYL{
+    padding: 10px;
+    margin: 5px;
+}
+.bordeImaTarjeta{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+}
+.bordeImaTarjetaIm{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50% 40%;
+    border-bottom-left-radius: 30% 10%;
+    overflow: hidden;
+}
+.espacioLetraTarjetaMyL{
+    padding: 9px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.espacioDebajoMyL{
+    margin-bottom: 5%;
+}
+.MyLTexto{
+    font-weight: bolder;
+}
+.MyLTextoB{
+    font-weight: bolder;
+    color: white;
+}
+.MyLTextoBN{
+    color: white;
+}
+.MyLespacioTexto{
+    padding: 5px;
+}
+.MyLespacioTextoBoton{
+    padding-bottom: 20px;
+}
+.ImaTarjetaIm{
+    width: 100%;
+}
+.ImaTarjetaIm:hover{
+    transform: scale(1.1);
+    transition: transform 0.55s;
+}
+.espacioCajaMyL{
+    padding-top: 50px;
+}
+.botonJuegarTarjeta{
+    color:white;
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.botonJuegarTarjeta:hover{
+    color:white;
+    padding: 15px;
+    mix-blend-mode: screen;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*BLOG*/
+
+
+
+
+
+
+/*----------------VIDEO ENCABEZADO BLOG----------------*/
+.FondoVBlo{
+    background-image: url("../images/fondos/fondo_blogv_web.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.TextCartelVBlo{
+    font-weight: bolder;
+    padding: 30px;
+    text-align: center;
+}
+.espacioCartelVBlog{
+    padding-top: 50px;
+}
+.VideoEBlogCaja{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.VideoEBlog{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+.espacioVblog{
+    padding-top: 30px;
+}
+.FondoCartelVBlo{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/*----------------MISION VISION----------------*/
+.FondoMisionVision{
+    background-image: url("../images/fondos/fondo_visionmision_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.espacioCajaVisionMision{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.espacioSeparadVisionMision{
+    padding-bottom: 50px;
+}
+.TextoMisionVision{
+    font-weight: bolder;
+}
+
+
+
+/*----------------FILOSOFIA----------------*/
+.FondoCartelFilo{
+    background-image: url("../images/fondos/letreroV2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelFilo{
+    font-weight: bolder;
+    padding: 30px;
+    text-align: center;
+}
+.espacioCartelFilo{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.espacioFilo{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.imgFilosofia{
+    width: 100%;
+    padding: 30px;
+}
+.imgFilosofia:hover{
+    transform: scale(1.1);
+    transition: transform 0.55s;
+}
+.alineaFiloItems{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+/*----------------EQUIPO DE TRABAJO----------------*/
+.EspacioCartelEdT{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.FondoCartelEdT{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelEdT{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.tarjetaEdT{
+    padding: 10px;
+    margin: 5px;
+}
+.bordeImaTarjetaEq{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+}
+.bordeImaTarjetaImEq{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50% 40%;
+    border-bottom-left-radius: 30% 10%;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.espacioLetraTarjetaEq{
+    padding: 9px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.espacioDebajoEq{
+    margin-bottom: 5%;
+}
+.EqTexto{
+    font-weight: bolder;
+}
+.EqTextoB{
+    font-weight: bolder;
+    color: white;
+}
+.EqTextoBN{
+    color: white;
+}
+.EqespacioTexto{
+    padding: 5px;
+}
+.EqespacioTextoBoton{
+    padding-bottom: 20px;
+}
+.ImaTarjetaImEq{
+    width: 80%;
+}
+.ImaTarjetaImEq:hover{
+    transform: scale(1.1);
+    transition: transform 0.55s;
+}
+.espacioCajaEq{
+    padding-top: 50px;
+}
+.botonJuegarTarjetaEq{
+    color:white;
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.botonJuegarTarjetaEq:hover{
+    color:white;
+    padding: 15px;
+    mix-blend-mode: screen;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+/*----------------SPOT BLOG----------------*/
+.VideoSpotCaja{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.VideoSpot{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+.FondoVideoSpot{
+    background-image: url("../images/fondos/fondo-video.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+}
+.EspacioSepaVideSpot{
+    padding-top: 80px;
+}
+.EspacioCartelVidSpot{
+    padding-top: 320px;
+    padding-bottom: 35px;
+}
+.FondoVidCSpot{
+    background-image: url("../images/fondos/letreroV2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelVideoSpot{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/*----------------FITBOOKS----------------*/
+.EspacioCartelFli{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.FondoVidCFli{
+    background-image: url("../images/fondos/letreroV2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelFli{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.espacioSeparadFli{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.flic{
+    height: 500px;
+    background-color: #a76501;
+}
+
+
+
+
+/*TE AYUDAMOS*/
+
+
+
+/*----------------ENCABEZADO----------------*/
+.FondoFormulario{
+    background-image: url("../images/fondos/fondo_ayuda_web.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.EspacioFormCaja{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.EspacioSolForm{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.TamanoSolForm{
+    width: 50%;
+}
+
+
+/*----------------FORMULARIO----------------*/
+.fondoBlancoForm{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.espacioFormCuadros{
+    padding: 10px;
+}
+.textFormEnca{
+    text-align: center;
+}
+.textFormEncaTitulo{
+    font-weight: bolder;
+}
+.botonAlineaForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonForm{
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 55px;
+    padding-left: 55px;
+    background-color: #C9961A;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.botonForm:hover{
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 55px;
+    padding-left: 55px;
+    background-color: #b48817;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+/*JUEGA*/
+
+
+
+/*----------------ENCABEZADO----------------*/
+.CarruJuega{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.FondoPJuegos{
+    background-image: url("../images/fondos/fondo_juega_web.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.TextoJP{
+    font-size: 100px;
+    font-weight: bolder;
+    color:white;
+}
+.TextoJP1{
+    padding-top: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    color:white;
+}
+.TextoJP2{
+    padding-left: 150px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.CajaTextoJP{
+    padding-left: 50px;
+}
+.alineaTextoJP{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+/*MITOS Y LEYENDAS*/
+
+
+/*---------------------HUILA---------------------*/
+
+/*Titulo*/
+.espacioInicioMitoyL{
+    padding-top: 60px;
+}
+
+.AlingTituloMitosYL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TamaIcoMito{
+    width: 10%;
+    margin: 25px;
+}
+.TextoITituloMito{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+
+
+/*Mito*/
+.AlineaImagenMito{
+    float: right;
+    margin-right: 15px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+}
+.FondoTituloMito{
+    background-image: url("../images/fondos/letreroV2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.TituloMitosyL{
+    padding: 50px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+.ParrafoMito{
+    font-size: 20px;
+}
+.centrarAudio{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*Datos curiosos*/
+.espacioDatosMitoyL{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.AlingTituloDatosMitosYL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TextoITituloDatosMito{
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 30px;
+    color: white;
+}
+.FondoTituloDatosMitos{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.AlingTextoDatosMitosYL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.TamaImaDatosMito{
+    width: 80%;
+}
+.fondoBlancoTextoDatos{
+    border-radius: 10px;
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 10px;
+}
+.alingImgMap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*Fondos Datos de Mitos*/
+.Huila{
+    background-image: url("../images/fondos/fondo_huila_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Antioquia{
+    background-image: url("../images/fondos/fondo_antioquia_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Caldas{
+    background-image: url("../images/fondos/fondo_caldas_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Cundinamarca{
+    background-image: url("../images/fondos/fondo_cundinamarca_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Cauca{
+    background-image: url("../images/fondos/fondo_cauca_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Valle{
+    background-image: url("../images/fondos/fondo_valle_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Magdalena{
+    background-image: url("../images/fondos/fondo_magdalena_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Quindio{
+    background-image: url("../images/fondos/fondo_quindio_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Tolima{
+    background-image: url("../images/fondos/fondo_tolima_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.linea{
+    border: 2px solid black;
+}
+
+
+
+
+
+
+/* Very Small devices (phones, 50px and up)*/
+@media (min-width: 50px) and (max-width: 576px) {
+
+    .alineaTarCJuegos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+
+/*BARRA NAVEGACION*/
+.anchoL {
+    width: 250px;
+}
+.espacioDebajoN {
+    padding-bottom: 70px;
+}
+
+
+
+
+/*ENCABEZADO GENERAL*/
+.altoH{
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+.fondoBlancoLetra{
+    border-radius: 15px;
+}
+.Flecha{
+    width: 35px;
+    padding: 5px;
+}
+.botonApreEnca{
+    padding: 15px;
+    border-radius: 9px;
+    font-size: 20px;
+}
+.botonApreEnca:hover{
+    padding: 15px;
+    border-radius: 9px;
+}
+.EspacioSol{
+    padding-top: 15px;
+}
+
+
+/*FONDOS ENCABEZADO*/
+.FondoEncabezadoHome{
+    background-image: url("../images/fondos/Fondo-home-sol-movil.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position:top;
+    padding-bottom: 0px;
+}
+.FondoEncabezadoAprende{
+    background-image: url("../images/fondos/Fondo-apre-movil.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+
+/*MAPA*/
+.fondoMapaA{
+    border-top-right-radius: 40% 10%;
+    border-top-left-radius: 40% 10%;
+}
+.FondoMad{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.EspacioCartelMap{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.TextCartelMap{
+    padding: 20px;
+    font-size: 15px;
+}
+.EspacioSepaVide{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/*VIDEO*/
+.FondoVideoTi{
+    background-image: url("../images/fondos/fondo-video-movil.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 30px;
+    padding-bottom: 60px;
+}
+.EspacioCartelVid{
+    padding-top: 110px;
+    padding-bottom: 0px;
+}
+.FondoVidC{
+    background-image: url("../images/fondos/letreroMovil.png");
+}
+
+
+
+/*CARRUSEL*/
+.tarjeta{
+    padding: 5px;
+    margin: 0px;
+}
+.EspacioCartelJuegos{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.FondoCartelJuegos{
+    background-image: url("../images/fondos/letreroMovil.png");
+}
+.espacioDebajo{
+    margin-bottom: 50px;
+}
+.TextCartelJuegos{
+    padding: 20px;
+    font-size: 15px;
+}
+
+
+
+/*FOOTER*/
+.FondoFooter{
+    background-image: url("../images/fondos/footerMovil.png");
+}
+.EspacioFooterIn{
+    padding: 30px;
+}
+.EspacioInfoFoot {
+    padding: 0px;
+}
+.EspacioInfoC{
+    padding-left: 0px;
+    padding-top: 20px;
+}
+.listacontac{
+    list-style: url("../images/iconos/vineta-sol-movil.png");
+}
+
+
+
+
+/*APRENDE*/
+
+
+
+
+/*----------------ENCABEZADO APRENDE----------------*/
+.FondoEncabezadoAprende{
+    background-image: url("../images/fondos/Fondo-apre-movil.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+
+/*----------------SABES QUE ES MITO O LEYENDA----------------*/
+.fondoSabes{
+    background-image: url("../images/fondos/fondo_zigzagapre_movil.png");
+    padding: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.FondoSabesC{
+    padding: 20px;
+}
+.EspacioSabesA {
+    padding-top: 70px;
+}
+
+
+/*----------------TARJETAS DE MITOS Y LEYENDAS----------------*/
+.EspacioCartelMyL{
+    padding-bottom: 0px;
+}
+.FondoCartelMyL{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelMyL{
+    font-size: 15px;
+}
+.espacioCajaMyL{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+/*BLOG*/
+
+
+
+
+
+
+/*----------------VIDEO ENCABEZADO BLOG----------------*/
+.FondoVBlo{
+    background-image: url("../images/fondos/fondo_blogv_movil.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.espacioVblog{
+    padding-top: 20px;
+}
+.FondoCartelVBlo{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/*----------------MISION VISION----------------*/
+.FondoMisionVision{
+    background-image: url("../images/fondos/fondo_visionmision_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/*----------------FILOSOFIA----------------*/
+.FondoCartelFilo{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgFilosofia{
+    padding: 10px;
+}
+
+
+/*----------------EQUIPO DE TRABAJO----------------*/
+.FondoCartelEdT{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelEdT{
+    font-size: 15px;
+}
+
+
+
+/*----------------SPOT BLOG----------------*/
+.FondoVideoSpot{
+    background-image: url("../images/fondos/fondo-video-movil.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 75px;
+}
+.EspacioSepaVideSpot{
+    padding-top: 0px;
+}
+.EspacioCartelVidSpot{
+    padding-top: 100px;
+    padding-bottom: 5px;
+}
+.FondoVidCSpot{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelVideoSpot{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/*----------------FITBOOKS----------------*/
+.EspacioCartelFli{
+    padding-top: 20px;
+}
+.FondoVidCFli{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/*TE AYUDAMOS*/
+
+
+
+/*----------------ENCABEZADO----------------*/
+.FondoFormulario{
+    background-image: url("../images/fondos/fondo_ayuda_movil.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.EspacioFormCaja{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/*MITOS Y LEYENDAS*/
+
+
+
+
+
+/*---------------------HUILA---------------------*/
+
+/*Titulo*/
+.TamaIcoMito{
+    width: 25%;
+    margin: 25px;
+}
+.TextoITituloMito{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+
+/*Mito*/
+.AlineaImagenMito{
+    float: none;
+    width: 100%;
+}
+
+
+
+/*Datos curiosos*/
+.espacioDatosMitoyL{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.AlingTituloDatosMitosYL{
+    text-align: center;
+}
+.TextoITituloDatosMito{
+    font-size: 35px;
+    padding: 30px;
+}
+.FondoTituloDatosMitos{
+    background-image: url("../images/fondos/letreroMovil.png");
+}
+.TamaImaDatosMito{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+
+
+
+/*Fondos Datos de Mitos*/
+.Huila{
+    background-image: url("../images/fondos/fondo_huila_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Antioquia{
+    background-image: url("../images/fondos/fondo_antioquia_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Caldas{
+    background-image: url("../images/fondos/fondo_caldas_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Cundinamarca{
+    background-image: url("../images/fondos/fondo_cundinamarca_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Cauca{
+    background-image: url("../images/fondos/fondo_cauca_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Valle{
+    background-image: url("../images/fondos/fondo_valle_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Magdalena{
+    background-image: url("../images/fondos/fondo_magdalena_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Quindio{
+    background-image: url("../images/fondos/fondo_quindio_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Tolima{
+    background-image: url("../images/fondos/fondo_tolima_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+
+}
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 768px) {
+
+    /*BARRA NAVEGACION*/
+    .anchoL {
+        width: 450px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
